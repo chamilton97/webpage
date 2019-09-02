@@ -3,6 +3,4 @@ RewriteEngine On
 RewriteBase /~carterhd/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /~carterhd/index.html [L]
 RewriteCond %{REQUEST_FILENAME}\.html -f
-RewriteRule ^(.*)$ $1.html
